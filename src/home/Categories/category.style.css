@@ -1,0 +1,22 @@
+/*categories*/
+.categories{
+    min-height: 50vh;
+  }
+  .category-box{
+    width: 30%;
+  }
+  .cat-img{
+    border: 0.5px solid #48c529be;
+    cursor: pointer;
+    font-weight: 900;
+  }
+  .cat-img:hover{
+    transform: scale(1.05);
+    background-color: #0dcaf0 !important;
+    border: 0.8px solid #48c529be;
+    transition: transform 0.9s ease-out;
+  }
+  .cat-name{
+    font-weight: 900;
+    font-family: sans-serif;
+  }
